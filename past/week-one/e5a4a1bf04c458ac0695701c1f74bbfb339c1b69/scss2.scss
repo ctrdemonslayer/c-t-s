@@ -1,0 +1,50 @@
+$t-s: 20px;
+$t-c: #ff002b;
+$tb-c: #b200f0;
+$t-m: auto;
+$t-a: center;
+$br-c:#FA1461;
+
+@mixin needs($a-t){
+    background-color:$tb-c;
+    color:$t-c;
+    margin:3% $t-m;
+    text-align:$a-t;
+    padding:5%;
+    border: 3px solid $br-c;
+    &:hover{
+        color:$tb-c;
+        background-color:$br-c;
+            margin:3% $t-m;
+    text-align:$a-t;
+    padding:5%;
+    border: 3px solid $t-c;
+    }
+}
+.one{
+    @include needs($t-a);
+    font-size:$t-s*1.80;
+    width:100%;
+}
+
+.two{
+    @include needs($t-a);
+    font-size:$t-s*1.5;
+    width:85%;
+}
+
+.three{
+    @include needs(left);
+    font-size:$t-s;
+    width:65%;
+    max-width:75%;
+}
+
+body{
+    background-color:black;
+}
+
+.tab{
+    width:10px;
+    display:inline-block;
+}

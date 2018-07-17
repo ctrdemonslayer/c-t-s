@@ -1,0 +1,139 @@
+#page-title{
+	background:black;
+	font-family:Astrologicus;
+	font-family:Octagen Roman;
+	font-family:sans-serif;
+	padding:50px;
+	padding-left:27%;
+	color:#0102ad;
+	font-size:60px;
+	-webkit-animation: myAnimation 5s infinite;
+	animation: myAnimation 5s infinite;
+	border:5px solid #0102ad;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	font-variant:small-caps;
+	width:100%;
+}
+
+@-webkit-keyframes"myAnimation"{
+	50%{
+		background-color:#000; 
+		}
+	}
+
+@keyframes"myAnimation"{
+	50%{
+		background-color:#000; 
+		}
+	}
+
+body {
+	background:url("http://www.amazingwallpaperz.com/wp-content/uploads/Ice-Dragon-Mobile-Wallpapers.jpg")no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-noz-background-size:cover;
+	background-size:cover;
+	/*soures for img http://www.amazingwallpaperz.com/ice-dragon-mobile-wallpapers/*/
+	background-color:black;
+	color:#0102ad;
+	font-family:sans-serif;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.group-one{
+	-webkit-transition:all 500ms ease-out 1s;
+	-moz-transition:all 500ms ease-out 1s;
+	-o-transition:all 500ms ease-out 1s;
+	transition:all 500ms ease-out 1s;
+	width:45%;
+	font-size:25px;
+	font-family:Astrologicus;
+	font-family:Octagen Roman;
+	font-family:sans-serif;
+	background-color:black;
+	border-left:15px solid #0102ad;
+	padding:1%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin:50px;
+}
+.group-one:hover {
+	background-color:#0102ad;
+	color:black;
+	cursor:pointer;
+	border-left:15px solid black;
+}
+
+.group-two{
+	width:40%;
+	font-size:45px;
+	font-family:Astrologicus;
+	font-family:Octagen Roman;
+	font-family:sans-serif;
+	background-color:black;
+	border:5px solid #0102ad;
+	padding:20px;
+	padding-left:32%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin:50px;
+}
+
+span{
+	font-size:30px;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:uppercase;
+	text-shadow:3px 7px 7px black;
+}
+
+#game{
+	width:40%;
+display:flex; 
+}
+/*psedue class*/
+a:visited{
+	color:navy;
+}
+
+a:link{
+	color:blue;
+}
+
+a:active{
+	color:pink;
+}
+.my-link:hover{ 
+	color:silver;
+}
+.dis{
+	list-style:square;
+	width:300px;
+	padding:25px;
+}
+.ci{
+	list-style:circle;
+	width:300px;
+	padding:25px;
+}
+.sp{
+	list-style:disc;
+	width:300px;
+	padding:25px;
+}
+#blocks{
+	position:absolute;
+}
+.blocks {
+	height:100px;
+	width:100px;
+	margin:20px;
+	background-color:#0102ad;
+	float:left;
+}

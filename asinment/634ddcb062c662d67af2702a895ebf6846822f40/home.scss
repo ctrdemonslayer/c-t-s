@@ -1,0 +1,28 @@
+$t-s: 20;
+@mixin heading($width, $t-size-m, $margin, $t-a) {
+    width: $width;
+    font: $t-s*$t-size-m;
+    text-align: $t-a;
+    border-radius: 3px;
+    margin: $margin;
+    padding: 1%;
+    &:hover{
+        background-color:#000000;
+    }
+}
+body {
+    background-image: url(http://idata.over-blog.com/4/04/15/69/2674-1-mtg-magic-gathering-trading.jpg);
+    background-size: 100% ;
+}
+h1 {
+    @include heading(94%, 2, 10px auto, center);
+    border: 3px solid;
+}
+h3 {
+    @include heading(90%, 1.75, 25px auto, center);
+    border: 3px solid;
+}
+.content {
+    @include heading(45%, 1, 25px auto 25px 1%, left);
+        border-left: 5px solid;
+}

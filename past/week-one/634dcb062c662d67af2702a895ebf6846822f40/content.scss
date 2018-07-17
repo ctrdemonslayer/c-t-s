@@ -1,0 +1,27 @@
+@mixin notification{
+    width: 99%;
+    height: 35px;
+    text-align: center;
+    padding: 10px auto;
+    font-size: 1.2em;
+    font-family: Verdana;
+    border-radius: 3px;
+    font-size: 15px;
+    // I can also use 
+    @content;
+}
+.error{
+    @include notification {
+      background-color: DarkRed;
+      color:white;
+      border: 1px solid LightSlateGray;
+    }
+}
+.success{
+    @include notification {
+      background-color: MediumSeaGreen;
+      color:white;
+      border: 1px solid LightSalmon;
+    }
+    
+}

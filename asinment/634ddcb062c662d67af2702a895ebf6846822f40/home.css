@@ -1,0 +1,38 @@
+body {
+  background-image: url(http://idata.over-blog.com/4/04/15/69/2674-1-mtg-magic-gathering-trading.jpg);
+  background-size: 100%; }
+
+h1 {
+  width: 94%;
+  font: 40;
+  text-align: center;
+  border-radius: 3px;
+  margin: 10px auto;
+  padding: 1%;
+  border: 3px solid; }
+  h1:hover {
+    background-color: #000000; }
+
+h3 {
+  width: 90%;
+  font: 35;
+  text-align: center;
+  border-radius: 3px;
+  margin: 25px auto;
+  padding: 1%;
+  border: 3px solid; }
+  h3:hover {
+    background-color: #000000; }
+
+.content {
+  width: 45%;
+  font: 20;
+  text-align: left;
+  border-radius: 3px;
+  margin: 25px auto 25px 1%;
+  padding: 1%;
+  border-left: 5px solid; }
+  .content:hover {
+    background-color: #000000; }
+
+/*# sourceMappingURL=home.css.map */

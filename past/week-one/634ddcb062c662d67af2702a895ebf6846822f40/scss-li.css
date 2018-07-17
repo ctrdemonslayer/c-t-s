@@ -1,0 +1,25 @@
+.car-maserati {
+  background-image: url("https://s3.amazonaws.com/bottega-devcamp/scss/cars/maserati.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 500px;
+  float: left;
+  object-fit: fill; }
+
+.car-tesla {
+  background-image: url("https://s3.amazonaws.com/bottega-devcamp/scss/cars/tesla.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 500px;
+  float: left;
+  object-fit: fill; }
+
+.car-porsche {
+  background-image: url("https://s3.amazonaws.com/bottega-devcamp/scss/cars/porsche.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 500px;
+  float: left;
+  object-fit: fill; }
+
+/*# sourceMappingURL=scss-li.css.map */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deck Builder</title></title>
+        <link rel="stylesheet" href="home.css" type="text/css" />
+    </head>
+    <body>
+        <script>
+            window.onload = function() {
+                const colors = ["#0017FE","white","#057B04","#5F5A5D","#C50606"];
+                const index = Math.floor(Math.random
+                ()*colors.length);
+                let body = document.querySelector("body");
+                body.style.color = colors[index];
+                body.style.border.color = colors[index];
+                body.style.border.left.color = colors[index];
+            }
+        </script>
+        <script src="home.js"></script>
+        <h1>Hello Magic Fans</h1>
+        <h3>Welcome to deck builder.</h3>
+        <p class="content"> The goal of this Web Page is to help You mack a well balanced Deck. 
+        By informing You of the Average mana cost power and toghness of your comander deck.
+        The Site will be up dated on a Later date to make standerd decks.
+        <br>If You dont like the color reload the page. This site is not yet compleated.</p>
+        <table class="content" id="c-index">
+            <img scr="https://images-na.ssl-images-amazon.com/images/I/51-Tsq9Ui5L._SL500_AC_SS350_.jpg"><img>
+        </table>
+    </body>
+</html>
